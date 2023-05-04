@@ -2,7 +2,7 @@
 WOWDLE is a browser-based game where players try to guess the zone in Classic WoW when given hints such as pictures, the continent, faction, and distance from the answer.
 
 
-## Dependencies
+### Dependencies
 - Python 3.x
 - Flask
 - BeautifulSoup4 
@@ -10,7 +10,7 @@ WOWDLE is a browser-based game where players try to guess the zone in Classic Wo
 
 See __requirements.txt__ for exact versions
 
-## Installation
+### Installation
 1. Clone the repo if you haven't already
 ```
 git clone https://github.com/ryanjezell/wowdle.git
@@ -21,22 +21,22 @@ git clone https://github.com/ryanjezell/wowdle.git
 pip install -r requirements.txt
 ```
 
-## Running the WOWDLE
+### Running WOWDLE
 1. Run these snippets of code one-by-one from top to bottom
 
-- __Windows__
+__Windows__
 ```
 set FLASK_APP=app.py
 python -m flask run
 ```
 
-- __Linux/Mac__
+__Linux/Mac__
 ```
 export FLASK_APP=app.py
 python -m flask run
 ```
 
-## Reload Classic Zone IDs
+### Reload Classic Zone IDs
 1. Run the script
 
 ```
