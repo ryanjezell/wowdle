@@ -1,11 +1,19 @@
 <html>
 <head>
-    <title>Filtered WoW Zones</title>
+    <title>Filtered WoW Zones!!</title>
 </head>
 <body>
-    <h1>Zones without expansion requirements:</h1>
+    <h1>Zones without expansion requirements</h1>
+    <ul>
+        {% for zone_id in zones %}
+            <li>{{ zone_id }}</li>
+        {% endfor %}
+    </ul>
+
     <script>
-        console.log("Hello, console!");
+        {% for zone_id in zones %}
+            console.log("Zone ID: " + {{ zone_id }});
+        {% endfor %}
     </script>
 </body>
 </html>
