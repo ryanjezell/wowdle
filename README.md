@@ -1,3 +1,3 @@
 # wowdle
  
-# creating a wow guessing game
+# creating a wow guessing game!
